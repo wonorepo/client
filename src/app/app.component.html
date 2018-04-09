@@ -1,0 +1,24 @@
+<aside>
+  <h2>Credentials</h2>
+  <section>
+    <form>
+      <input [(ngModel)]="creds.pass" name="pass" placeholder="Passphrase" type="password">
+      <button (click)="newWallet()" [disabled]="!creds.pass">New wallet</button>
+    </form>
+    <form>
+      <input [(ngModel)]="creds.seed" name="seed" placeholder="Seed" type="text">
+      <input [(ngModel)]="creds.newpass" name="newpass" placeholder="New passphrase" type="password">
+      <button [disabled]="!creds.seed || !creds.newpass" (click)="newWallet(creds.seed)">Recover by seed</button>
+    </form>
+  </section>
+</aside>
+<main>
+  <h2>Wallet</h2>
+  <section *ngIf="!loading">
+    <p>Address: {{wallet.address}}</p>
+    <p>Private Key: {{wallet.privateKey}}</p>
+    <p>Seed: {{wallet.seed}}</p>
+    <button (click)="wallet = {}">Clear</button>
+  </section>
+  <h3 *ngIf="loading">Loading...</h3>
+</main>
