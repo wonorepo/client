@@ -27,18 +27,6 @@
     "@ngtools/json-schema" "^1.1.0"
     rxjs "^5.5.6"
 
-"@angular/animations@^5.2.9":
-  version "5.2.9"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.2.9.tgz#220db9fb5a52a193db0023d721b23ddd25a75770"
-  dependencies:
-    tslib "^1.7.1"
-
-"@angular/cdk@^5.2.4":
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-5.2.4.tgz#c0a429a8710d8fedb157f546e21cb49d4335f7f7"
-  dependencies:
-    tslib "^1.7.1"
-
 "@angular/cli@~1.7.3":
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-1.7.4.tgz#b6c31b5fc6f8ea07e55b1b01a26422f5358a4ea6"
@@ -146,12 +134,6 @@
 "@angular/language-service@^5.2.0":
   version "5.2.9"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-5.2.9.tgz#4838bb6319c99e8f5beb08bdfb392ee9a1173766"
-
-"@angular/material@^5.2.4":
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-5.2.4.tgz#9e823798324283d23ea839156fac5bcb73443d55"
-  dependencies:
-    tslib "^1.7.1"
 
 "@angular/platform-browser-dynamic@^5.2.0":
   version "5.2.9"
@@ -4749,6 +4731,16 @@ netmask@~1.0.4:
 next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
+
+ng2-facebook-sdk@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/ng2-facebook-sdk/-/ng2-facebook-sdk-2.3.1.tgz#1f10c5c8fac138f5de1aacb4cd95479f9ec868dd"
+
+ngx-social-login@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/ngx-social-login/-/ngx-social-login-1.0.4.tgz#0ac622029c0e3be3bf07b66531aeb5b6deba1815"
+  dependencies:
+    tslib "^1.7.1"
 
 no-case@^2.2.0:
   version "2.3.2"
