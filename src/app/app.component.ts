@@ -35,4 +35,16 @@ export class AppComponent {
     async google () {
         this.test.login(Provider.GOOGLE).subscribe(user => console.log(user))
     }
+
+	async instagram () {
+        this.test.login(Provider.INSTAGRAM).subscribe(user => console.log(user))
+    }
+
+	async vk () {
+        this.test.login(Provider.VK).subscribe(user => console.log(user))
+    }
+
+    async twitter () {
+        this.test.login(Provider.TWITTER).subscribe(user => console.log(user))
+    }
 }
