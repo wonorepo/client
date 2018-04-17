@@ -24,6 +24,12 @@ import { AppComponent } from './app.component'
                     initOptions: {
                         appId: '751488778286304'
                     }
+                },
+                vk: {
+                    client_id: '6430510'
+                },
+                twitter: {
+                    appId: '239471023123'
                 }
             }
         )
