@@ -1,3 +1,13 @@
+# BEFORE YOU START
+
+HOW TO SET UP GITHUB PUSH INTEGRATION
+
+1. clone this repo and change directory to it
+2. git config user.email "{YOUR_MAIL}@wono.io"
+3. git remote set-url origin --add https://github.com/wonorepo/api
+
+---
+
 # Wono
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
